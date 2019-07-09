@@ -9,12 +9,12 @@ package tela.manutencao;
  *
  * @author Administrador
  */
-public class manutencao_prof extends javax.swing.JDialog {
+public class ManutencaoProf extends javax.swing.JDialog {
 
     /**
      * Creates new form manutencao_prof
      */
-    public manutencao_prof(java.awt.Frame parent, boolean modal) {
+    public ManutencaoProf(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
@@ -146,20 +146,21 @@ public class manutencao_prof extends javax.swing.JDialog {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(manutencao_prof.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManutencaoProf.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(manutencao_prof.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManutencaoProf.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(manutencao_prof.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManutencaoProf.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(manutencao_prof.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManutencaoProf.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                manutencao_prof dialog = new manutencao_prof(new javax.swing.JFrame(), true);
+                ManutencaoProf dialog = new ManutencaoProf(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
